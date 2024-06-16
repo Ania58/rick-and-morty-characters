@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             img.src = character.image;
             img.alt = character.name;
             const p = document.createElement('p');
-            p.textContent = `${character.name} - ${character.species}`;
+            p.innerHTML = `<strong>Name:</strong> ${character.name}<br><strong>Species:</strong> ${character.species}`;
             li.appendChild(img);
             li.appendChild(p);
             characterList.appendChild(li);

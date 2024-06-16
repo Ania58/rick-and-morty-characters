@@ -82,3 +82,19 @@ ul {
   flex-wrap: wrap;
 }
 
+li {
+  border: 1px solid rgb(183, 183, 7);
+  margin: 5px;
+}
+
+li img {
+  padding: 10px;
+}
+
+li p {
+  padding: 10px;
+}
+
+strong {
+  font-weight: bold;
+}
